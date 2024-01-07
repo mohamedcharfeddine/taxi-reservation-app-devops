@@ -1,0 +1,48 @@
+@import "../../public/fonts/inter.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/* Chrome, Edge, Safari */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 40;
+  height: 40;
+  opacity: 0;
+}
+
+/* Firefox */
+input[type="date"]::-moz-calendar-picker-indicator {
+  width: 40;
+  height: 40;
+  opacity: 0;
+}
+
+/* Remove the clear button in IE */
+input[type="date"]::-ms-clear {
+  width: 40;
+  height: 40;
+  opacity: 0;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  width: 40;
+  height: 40;
+  opacity: 0;
+}
+
+/* Firefox */
+input[type="time"]::-moz-calendar-picker-indicator {
+  width: 40;
+  height: 40;
+  opacity: 0;
+}
+
+/* Remove the clear button in IE */
+input[type="time"]::-ms-clear {
+  width: 40;
+  height: 40;
+  opacity: 0;
+}

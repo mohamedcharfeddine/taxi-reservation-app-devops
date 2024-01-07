@@ -1,0 +1,34 @@
+{
+  "name": "TaxiVipMechelen",
+  "short_name": "TaxiVipMechelen",
+  "description": "VIP Taxi Mechelen serves individuals and businesses in the Mechelen region and surrounding cities.",
+  "start_url": "https://viptaximechelen.be/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/apple-touch-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+      
+    }
+  ]
+}
